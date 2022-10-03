@@ -174,9 +174,6 @@
         font-size: 12px;
     }
 
-    .worker_details {
-        padding: 0px 65px;
-    }
 
     .worker_details .remoter p {
         font-size: 12px;
@@ -264,6 +261,13 @@
         font-size: 12px;
     }
 
+    .jobs tr td:nth-child(1){
+        display: none;
+    }
+
+    .jobs tr td:nth-child(3){
+        margin-left: -25px;
+    }
     .footer_txt {
         text-align: center;
         padding-bottom: 15px;
