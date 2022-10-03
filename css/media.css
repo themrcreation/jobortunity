@@ -1,0 +1,281 @@
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1200px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar .nav-item .nav-link {
+        text-align: center;
+        display: inline-block;
+        padding: 10px 15px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (max-width: 992px) {}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (max-width: 767px) {
+
+    .banner_txt {
+        padding-top: 0px;
+        text-align: center;
+    }
+    .banner_txt h1 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .banner_txt p {
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 10px;
+        padding-bottom: 70px;
+    }
+    .banner_txt button {
+        padding: 5px 10px;
+        margin-right: 10px;
+        font-size: 15px;
+        transition: all 0.9s ease-in-out;
+    }
+
+    .newslater {
+        display: none;
+    }
+
+    .section_head h2 {
+        font-size: 25px;
+    }
+    .section_head h2::after {
+        top: 35px;
+    }
+    .section_head p {
+        font-size: 14px;
+    }
+
+    .category_inner h4 {
+        font-size: 20px;
+    }
+
+    .category_item:hover{
+        transform: scale(1.1);
+      }
+    .mb-resp {
+        margin-bottom: 36px;
+    }
+
+
+    .how_work_inner h4 {
+        font-size: 20px;
+        padding: 15px 0px 20px 0px;
+    }
+
+    .how_work_inner p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .jobs td img {
+        width: 75%;
+    }
+
+    .jobs p,
+    .jobs span,
+    .jobs h6,
+    .jobs small {
+        font-size: 12px;
+    }
+
+    .jobs h5 {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .jobs tr td:nth-child(2){
+        margin-left: -25px;
+    }
+    .jobs tr td:nth-child(3){
+        margin-left: -25px;
+    }
+
+    .jobs tr td:nth-child(4){
+        display: none;
+    }
+
+    .jobs a {
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+    .jobs i {
+        margin-right: 0px;
+        font-size: 12px;
+    }
+
+    .more_job {
+        font-size: 12px;
+    }
+
+    .browse_job a {
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+
+    .want_job {
+        text-align: center;
+    }
+    .want_job h3 {
+        font-size: 25px;
+        padding-bottom: 0px;
+    }
+
+    .want_job small { 
+        font-size: 12px;
+    }
+
+    .want_job p {
+        padding-top: 5px;
+        padding-bottom: 15px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .want_job a {
+        font-size: 15px;
+    }
+
+    .card img {
+        width: 25%;
+    }
+
+    .pos_box {
+        width: 30px;
+        height: 30px;
+        line-height: 25px;
+        right: 37%;
+        top: 20%;
+        font-size: 20px;
+    }
+
+    .card-body h4 {
+        font-size: 16px;
+    }
+    .card-body h6 {
+        font-size: 12px;
+        padding-top: 5px;
+        padding-bottom: 12px;
+    }
+
+    .card-body p {
+        font-size: 12px;
+    }
+
+    .worker_details {
+        padding: 0px 65px;
+    }
+
+    .worker_details .remoter p {
+        font-size: 12px;
+    }
+
+    .worker_details .remoter p span {
+        font-size: 20px;
+    }
+
+    .card-footer a {
+        font-size: 15px;
+    }
+
+    .card-footer a::after {
+        top: 44px;
+    }
+
+    .card-footer:hover a::after {
+        width: 200px;
+      }
+
+      .counter_area h3 {
+        font-size: 25px;
+        padding-bottom: 8px;
+    }
+    .counter_area h4 {
+        font-size: 16px;
+    }
+
+    .main_footer h4 {
+        font-size: 16px;
+        padding-bottom: 25px;
+    }
+    .main_footer h4::after {
+        top: 20px;
+    }
+
+    .main_footer p {
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+
+    .footer_about a {
+        font-size: 15px;
+    }
+
+    .footer_about a i{
+        font-size: 10px;
+    }
+
+    .footer_nav ul li {
+        padding-bottom: 5px;
+        display: inherit;
+    }
+
+    .footer_nav ul li a {
+        font-size: 12px;
+    }
+
+    .social_links i {
+        padding: 10px;
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    .copywrite {
+        font-size: 12px;
+    }
+
+    .footer_news .btn {
+        width: 40%;
+        font-size: 15px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+    .banner_txt h1 {
+        font-size: 30px;
+    }
+    .banner_txt p {
+        font-size: 12px;
+    }
+
+    .footer_txt {
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border-bottom: 1px solid #3f3e3e;
+    }
+    .main_footer h4::after {
+        left: 247px;
+    }
+
+    .partners {
+        margin: auto;
+        width: 50%;
+    }
+}

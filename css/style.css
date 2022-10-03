@@ -1,0 +1,734 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 0.8;
+}
+
+table,
+tr,
+thead,
+td {
+  border: 0 !important;
+}
+
+/* all common css end  */
+
+/* nav css start  */
+
+
+.sticky_header {
+  background: rgba(0, 0, 0, 0.719);
+  animation: mrCreation 1s;
+}
+
+@keyframes mrCreation {
+  from {
+      top: -100px;
+  }
+  to{
+      top: 0;
+  }
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar img {
+  height: 50px;
+}
+
+.navbar-toggler i {
+  color: #fff;
+}
+
+.navbar .nav-item .nav-link {
+  margin-left: 50px;
+  color: #fff;
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+  transform: all 0.4s ease;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.navbar .nav-item.active a{
+  color: #00b7ef;
+}
+
+.navbar .nav-item:hover a {
+  background: #00b7ef;
+  color: #fff;
+}
+
+.navbar .nav-item .nav-link span {
+  padding: 10px 10px;
+  background: #00b7ef;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+/* nav css end */
+
+#banner {
+  background: url(../img/banner-img-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner_overlay {
+  padding: 200px 0px 0px 0px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.banner_txt {
+  padding-top: 60px;
+}
+.banner_txt h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 58px;
+  color: #fff;
+  line-height: 76px;
+}
+
+.banner_txt p {
+  color: #cecbcb;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 30px;
+  padding-bottom: 200px;
+}
+
+.banner_txt button {
+  padding: 10px 20px;
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-family: 'Arimo', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.9s ease-in-out;
+}
+
+.banner_txt button a {
+  color: #fff;
+}
+.banner_txt button:hover {
+  background: linear-gradient(to right, #00b7ef , #57d1f5);
+}
+
+#banner .card {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #cecbcb;
+  width: 75%;
+  margin: auto;
+} 
+#banner .card .form-control {
+  background: transparent;
+  color: #fff;
+}
+
+#banner .card button {
+  background: transparent;
+  border: 1px solid #fff;
+  transition: all 0.4s ease-in-out;
+  font-family: 'Arimo', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  
+
+}
+#banner .card button:hover {
+  background: linear-gradient(to right, #00b7ef , #57d1f5);
+  color: #fff;
+  border: 1px solid #00b7ef;
+}
+#banner .card .card-body .card-title {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+}
+
+#banner .card .card-body .card-text {
+  color: #fff;
+  padding: 20px 0px;
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* end  */
+#recent_jobs .btn,
+#search .btn {
+  background: linear-gradient(to right, #00b7ef , #57d1f5);
+  color: #fff;
+  font-family: 'Arimo', sans-serif;
+  padding-left: 6px;
+  font-weight: 700;
+}
+#recent_jobs .btn:hover,
+#search .btn:hover {
+  background: linear-gradient(to right, #57d1f5, #00b7ef);
+}
+
+/* categories css start  */
+
+.section_head h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 32px;
+  color: #222222;
+  position: relative;
+}
+
+
+
+.section_head h2::after {
+  position: absolute;
+  content: '';
+  height: 5px;
+  width: 50px;
+  border-radius: 2px;
+  background: #00b8ef;
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+}
+.section_head p{
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
+  padding: 45px 0px;
+  line-height: 26px;
+}
+.category_item {
+  background: #f5f5f5;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.category_inner {
+  padding-top: 40px;
+  
+}
+
+.category_inner h4 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 22px;
+  color: #222222;
+  padding: 16px 0px;
+}
+
+.category_inner p{
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #444444;
+  transition: 0.4s all ease-in-out;
+  padding-bottom: 20px;
+  
+}
+
+.category_inner a {
+  padding: 12px 14px;
+  background: #fff;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #00b8ef;
+  border-radius: 3px;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+}
+
+.category_item:hover{
+  transform: scale(1.2);
+  background: #00b8ef;
+  overflow: auto;
+  offset-path: 5;
+  color: #fff;
+  padding: 40px;
+  box-shadow: 3px 3px 5px #cecbcb;
+}
+
+.category_item:hover .category_inner p {
+  color: #fff;
+  
+}
+
+.category_item:hover .category_inner a {
+  visibility: visible;
+}
+
+
+/* categories css end */
+
+/* works css start  */
+#works {
+  background: #f5f5f5;
+}
+
+.how_work_inner_img {
+  padding: 15px;
+  background: #fff;
+  width: 25%;
+  margin: auto;
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out;
+}
+
+
+.how_work_item:hover .how_work_inner_img {
+  background: #00b8ef;
+}
+
+.how_work_inner h4{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 22px;
+  color: #222222;
+  padding: 20px 0px 32px 0px;
+}
+
+.how_work_inner p{
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
+  line-height: 26px;
+}
+
+.jobs p,
+.jobs span,
+.jobs h6{
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #00bfe8;
+  transition: all 0.4s ease-in-out;
+}
+.jobs span,
+.jobs h6 {
+  color: #444444;
+}
+.jobs h5{
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #222222;
+  padding-top: 5px;
+  transition: all 0.4s ease-in-out;
+}
+.jobs small {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #444444;
+  transition: all 0.4s ease-in-out;
+}
+
+.jobs i {
+  color: #444444;
+  margin-right: 5px;
+  transition: all 0.4s ease-in-out;
+}
+
+.jobs a {
+  padding: 12px 14px;
+  background: linear-gradient(to right, #00b7ef , #57d1f5);
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 3px;
+  transition: all 0.4s ease-in-out;
+}
+
+.jobs tr {
+  transition: all 0.4s ease-in-out;
+}
+
+.jobs  tr:hover {
+  background: #00bfe8 !important;
+}
+
+.jobs  tr:hover p,
+.jobs  tr:hover h5,
+.jobs  tr:hover small,
+.jobs  tr:hover span,
+.jobs  tr:hover h6,
+.jobs  tr:hover i {
+  color: #fff;
+}
+
+.jobs  tr:hover a {
+  background: #fff;
+  color: #444444;
+}
+
+.more_job {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
+}
+
+.browse_job a {
+  padding: 12px 14px;
+  background: linear-gradient(to right, #00b7ef , #57d1f5);
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 3px;
+  transition: all 0.4s ease-in-out;
+}
+.browse_job a i {
+  transition: all 0.4s ease-in-out;
+  font-size: 16px;
+}
+
+.browse_job a:hover i{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* works css end */
+
+/* hire css start  */
+.want_job {
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.want_job h3 {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #444444;
+  padding-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.want_job small {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #00bfe8;
+  transition: all 0.4s ease-in-out;
+}
+.want_job p {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #222222;
+  line-height: 26px;
+  transition: all 0.4s ease-in-out;
+}
+.want_job a {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #444444;
+  transition: all 0.4s ease-in-out;
+}
+
+.want_job:hover {
+  background: #00bfe8 !important;
+}
+
+.want_job:hover h3,
+.want_job:hover small,
+.want_job:hover p,
+.want_job:hover a {
+  color: #fff;
+}
+/* hire css end */
+
+/* remote_worker css start  */
+#remote_worker {
+  background: #f5f5f5;
+}
+
+#remote_worker .card {
+  border: 0;
+  box-shadow: 2px 2px 5px #dedcdc, -2px -2px 5px #dedcdc;
+}
+
+.card img {
+  width: 50%;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 15px;
+  position: relative;
+}
+
+.pos_box {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	background: #00b7ef;
+	text-align: center;
+	line-height: 50px;
+	right: 25%;
+	top: 22%;
+	border: 2px solid #fff;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 24px;
+  color: #fff;
+}
+
+.card-body h4 {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #222222;
+  text-transform: uppercase;
+  
+}
+.card-body h6{
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #222222;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.card-body p {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #222222;
+  
+}
+
+.dfg {
+  padding-bottom: 15px;
+}
+.card-body p i {
+  color: #f68b1e;
+  margin-right: 3px;
+}
+
+.worker_details {
+  margin-top: 15px;
+  border-top: 1px solid #f1f1f1;
+}
+.worker_details .remoter {
+  padding: 20px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.worker_details .remoter p{
+  font-family: 'Arimo', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #222222;
+}
+
+.worker_details .remoter p span {
+  font-size: 22px;
+}
+
+.card-footer {
+  background: none;
+  border: none;
+  transition: all 0.4s ease-in-out;
+}
+
+
+.card-footer a {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #222222;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+}
+
+.card-footer a::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 3px;
+  background: #00bfe8;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.4s ease-in-out;
+}
+
+.card-footer:hover a::after {
+  width: 300px;
+}
+/* remote_worker css end */
+
+/* partners css start  */
+
+.counter_area h3,
+.counter_area h4 {
+  font-family: 'Abril Fatface', cursive;
+  color: #222222;
+}
+
+.counter_area h3 {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.counter_area h4 {
+  font-size: 20px;
+}
+
+.partners {
+  border: 1px solid #f1f1f1;
+}
+/* partners css end */
+
+/* footer css start  */
+footer {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.main_footer h4 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 20px;
+  padding-bottom: 50px;
+  position: relative;
+}
+.main_footer h4::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  border-radius: 5px;
+  background: #00bfe8;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  transition: all 0.7s ease-in-out;
+}
+
+.footer_txt:hover h4::after{
+  width: 50px;
+}
+
+.main_footer p{
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 30px;
+}
+
+.footer_about a {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #00b7ef;
+}
+.footer_about a i{
+  transition: all 0.4s ease-in-out;
+  font-size: 20px;
+}
+
+.footer_about a:hover i{
+  margin-left: 20px;
+  color: #fff;
+}
+
+.footer_nav ul li {
+  padding-bottom: 20px;
+}
+
+.footer_nav ul li a {
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+  
+}
+
+.footer_nav ul li a:hover {
+  margin-left: 15px;
+  color: #00b7ef;
+}
+
+.footer_news .form-control {
+  background: transparent;
+  border: 1px solid #fff;
+  border-right: 0;
+}
+
+.footer_news .btn {
+  background: linear-gradient(to right, #00b7ef , #57d1f5);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  color: #fff;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.social_links i {
+  background: #fff;
+  padding: 15px;
+  border-radius: 50%;
+  color: #00b7ef;
+  font-size: 20px;
+  margin-right: 15px;
+  transition: all 0.4s ease-in-out;
+}
+
+.social_links i:hover {
+  /* transform: scale(1.1); */
+  background: linear-gradient(to right, #00b7ef , #57d1f5);
+  color: #fff;
+
+}
+/* footer css end */
+
+/* nav css start  */
+/* nav css end */
+
+/* nav css start  */
+/* nav css end */
+
+/* nav css start  */
+/* nav css end */
