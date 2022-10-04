@@ -292,11 +292,11 @@
     }
 
     .jobs h5 {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .jobs p, .jobs span, .jobs h6, .jobs small {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .jobs i {
